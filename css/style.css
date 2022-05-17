@@ -51,7 +51,7 @@ body {
 }
 
 .vintalight__container:nth-child(1):hover {
-  transform: scale(1.15) translate(40px, 30px) rotate(0);
+  transform: scale(1.15) translate(40px, 30px) rotate(-30deg);
 }
 
 @media screen and (max-width: 700px) {
@@ -60,10 +60,6 @@ body {
   }
 
   .vintalight__container:nth-child(1):hover {
-    transform: scale(1.1) translate(0) rotate(-30deg);
-  }
-
-  .vintalight__container:nth-child(1):active {
     transform: scale(1.1) translate(0) rotate(-30deg);
   }
 }
@@ -189,10 +185,6 @@ body {
   .vintalight__container.active:hover {
     transform: rotate(0) scale(1.7);
   }
-    .vintalight__container.active,
-    .vintalight__container.active:active {
-      transform: rotate(0) scale(1.7);
-    }
 }
 
 /* .vintalight__container.active {
