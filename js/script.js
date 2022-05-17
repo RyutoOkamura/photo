@@ -1,7 +1,7 @@
 // Función que activa el overlay. Se pasa como parámetro el contenedor padre (#vintalight en el DOM)
 const activeVintalight = container => {
   // Delegación de eventos para detectar click en los hijos
-  container.addEventListener("touched", e => {
+  container.addEventListener("click", e => {
     let element = e.target;
     // Validar que se haya dado click en el pseudoelemento before
     if (element.tagName == "DIV") {
