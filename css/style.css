@@ -98,7 +98,7 @@ body {
   }
 
   .vintalight__container:nth-child(3):hover {
-    transform: scale(1.1) translate(0) rotate(0);
+    transform: translate(0) rotate(20deg);
   }
 }
 
@@ -117,7 +117,7 @@ body {
   }
 
   .vintalight__container:nth-child(4):hover {
-    transform: scale(1.1) translate(0) rotate(0);
+    transform: translate(0) rotate(10deg);
   }
 }
 
@@ -136,7 +136,7 @@ body {
   }
 
   .vintalight__container:nth-child(5):hover {
-    transform: scale(1.1) translate(0) rotate(0);
+    transform: translate(0) rotate(-20deg);
   }
 }
 
@@ -155,7 +155,7 @@ body {
   }
 
   .vintalight__container:nth-child(6):hover {
-    transform: scale(1.1) translate(0) rotate(0);
+    transform: translate(0) rotate(-10deg);
   }
 }
 
@@ -164,11 +164,11 @@ body {
   z-index: 100;
 }
 
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
   .vintalight__container:hover {
     margin: 0 25px;
   }
-}
+} */
 
 .vintalight__container:hover .vintalight__photo::before {
   transform: scale(1);
