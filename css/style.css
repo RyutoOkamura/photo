@@ -62,6 +62,10 @@ body {
   .vintalight__container:nth-child(1):hover {
     transform: scale(1.1) translate(0) rotate(-30deg);
   }
+
+  .vintalight__container:nth-child(1):active {
+    transform: scale(1.1) translate(0) rotate(-30deg);
+  }
 }
 
 .vintalight__container:nth-child(2) {
@@ -182,9 +186,13 @@ body {
 @media screen and (max-width: 500px) {
 
   .vintalight__container.active,
-  .vintalight__container.active:active {
+  .vintalight__container.active:hover {
     transform: rotate(0) scale(1.7);
   }
+    .vintalight__container.active,
+    .vintalight__container.active:active {
+      transform: rotate(0) scale(1.7);
+    }
 }
 
 /* .vintalight__container.active {
