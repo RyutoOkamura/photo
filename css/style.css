@@ -182,7 +182,7 @@ body {
 @media screen and (max-width: 500px) {
 
   .vintalight__container.active,
-  .vintalight__container.active:active {
+  .vintalight__container.active:hover {
     transform: rotate(0) scale(1.7);
   }
 }
