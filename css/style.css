@@ -29,7 +29,7 @@ body {
 
 .vintalight__container {
   position: relative;
-  width: 45%;
+  width: 50%;
   max-width: 10.5em;
   height: 12.25em;
   background-color: #fff;
@@ -79,7 +79,7 @@ body {
   }
 
   .vintalight__container:nth-child(2):hover {
-    transform: scale(1.1) translate(0) rotate(0);
+    transform: translate(0) rotate(7deg);
   }
 }
 
@@ -183,7 +183,7 @@ body {
 
   .vintalight__container.active,
   .vintalight__container.active:hover {
-    transform: rotate(0) scale(1.15);
+    transform: rotate(0) scale(1.7);
   }
 }
 
