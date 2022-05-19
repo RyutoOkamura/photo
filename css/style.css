@@ -499,7 +499,7 @@ body {
 
 .start {
   width: 100%;
-  background-image: url(../img/open-bg.jpg);
+  background: #fff;
   background-position: center;
   position: fixed;
   top: 0;
@@ -507,6 +507,18 @@ body {
   height: 100%;
   z-index: 9000;
   text-align: center;
+}
+
+.over-white {
+  width: 100%;
+    background-image: url(../img/open-bg.jpg);
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 9000;
+    text-align: center;
 }
 
 .start p {
