@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: black;
+  background-image: url(../img/bg.jpg);
   overflow-x: hidden;
 }
 
@@ -25,6 +25,7 @@ body {
   width: 100%;
   max-width: 1200px;
   padding: 50px 0;
+  overflow: hidden;
 }
 
 .vintalight__container {
@@ -410,10 +411,114 @@ body {
 
 .logo-wrapper {
   width: 100%;
+  height: 50vh;
+  text-align: center;
+  position: relative;
+}
+
+@media screen and (max-width :700px) {
+  .logo-wrapper {
+      width: 100%;
+      height: 30vh;
+      text-align: center;
+      position: relative;
+    }
+}
+
+.penlogo {
+  width: 35vw;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  transform: rotate(10deg);
+}
+
+@media screen and (max-width:700px) {
+  .penlogo {
+      width: 50vw;
+      position: absolute;
+      top: 30%;
+      left: 5%;
+      transform: rotate(10deg);
+    }
+}
+
+.so-ta {
+  width: 35vw;
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  transform: rotate(10deg);
+}
+
+.logo-wrapper > .logo {
+  width: 55vw;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.logo-wrapper > .vintalight__container {
+  width: 55vw;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 700px) {
+  .logo-wrapper>.logo {
+      width: 80vw;
+      position: absolute;
+      top: 85%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+}
+
+.pushpin {
+  position: absolute;
+  width: 4vw;
+  z-index: 10;
+  top: 7%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.title__text {
+  color: #222;
+  font-size: 3em;
+  font-family: "Nanum Pen Script", cursive;
   text-align: center;
 }
 
-.logo-wrapper > img {
-  width: 60vw;
-  margin: 30px 0 0 0;
+.start {
+  width: 100%;
+  background-image: url(../img/open-bg.jpg);
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 9000;
+  text-align: center;
+}
+
+.start p {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 9999;
+  width: 280px;
+}
+
+.start img {
+  width: 100%;
 }

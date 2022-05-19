@@ -21,17 +21,33 @@
 <meta property="og:url" content="https://........">
 <title>Document</title>
 <link rel="stylesheet"  href="css/style.css">
+<link rel="stylesheet" href="css/reset.css">
+<script src="js/jquery.js"></script>
+<script>
+  $(function () {
+      setTimeout(function () {
+        $('.start p').fadeIn(1600);
+      }, 500); //0.5秒後にロゴをフェードイン!
+      setTimeout(function () {
+        $('.start').fadeOut(2000);
+      }, 3000); //3.0秒後にロゴ含め真っ白背景をフェードアウト！
+    });
+</script>
 </head>
 
 <body>
   <div class="container">
     <div class="logo-wrapper">
-      <img src="img/logo_white.png" alt="GG-LOGO">
+      <img class="penlogo" src="img/penlogo.png" alt="">
+      <img class="so-ta" src="img/so-ta-top.png" alt="">
+      <img class="logo" src="img/logo-cork.jpg" alt="GG-LOGO">
     </div>
+    <h2 class="title__text">Candid Photography</h2>
 
     <section class="vintalight" id="vintalight">
 
       <figure class="vintalight__container">
+        <img class="pushpin" src="img/pushpin.png" alt="">
         <div class="vintalight__photo"><img class="vintalight__img" src="img/sample.jpg" alt="Title(Sample)"></div>
         <figcaption class="vintalight__caption">
           <h3 class="vintalight__text">Title(Sample)</h3>
@@ -39,6 +55,17 @@
       </figure>
 
       <figure class="vintalight__container">
+        <img class="pushpin" src="img/pushpin.png" alt="">
+        <div class="vintalight__photo">
+          <img class="vintalight__img" src="img/sample.jpg" alt="Title(Sample)">
+        </div>
+        <figcaption class="vintalight__caption">
+          <h3 class="vintalight__text">Title(Sample)</h3>
+        </figcaption>
+      </figure>
+
+      <figure class="vintalight__container">
+        <img class="pushpin" src="img/pushpin.png" alt="">
         <div class="vintalight__photo"><img class="vintalight__img" src="img/sample.jpg" alt="Title(Sample)"></div>
         <figcaption class="vintalight__caption">
           <h3 class="vintalight__text">Title(Sample)</h3>
@@ -46,6 +73,7 @@
       </figure>
 
       <figure class="vintalight__container">
+        <img class="pushpin" src="img/pushpin.png" alt="">
         <div class="vintalight__photo"><img class="vintalight__img" src="img/sample.jpg" alt="Title(Sample)"></div>
         <figcaption class="vintalight__caption">
           <h3 class="vintalight__text">Title(Sample)</h3>
@@ -53,6 +81,7 @@
       </figure>
 
       <figure class="vintalight__container">
+        <img class="pushpin" src="img/pushpin.png" alt="">
         <div class="vintalight__photo"><img class="vintalight__img" src="img/sample.jpg" alt="Title(Sample)"></div>
         <figcaption class="vintalight__caption">
           <h3 class="vintalight__text">Title(Sample)</h3>
@@ -60,6 +89,7 @@
       </figure>
 
       <figure class="vintalight__container">
+        <img class="pushpin" src="img/pushpin.png" alt="">
         <div class="vintalight__photo"><img class="vintalight__img" src="img/sample.jpg" alt="Title(Sample)"></div>
         <figcaption class="vintalight__caption">
           <h3 class="vintalight__text">Title(Sample)</h3>
@@ -67,13 +97,7 @@
       </figure>
 
       <figure class="vintalight__container">
-        <div class="vintalight__photo"><img class="vintalight__img" src="img/sample.jpg" alt="Title(Sample)"></div>
-        <figcaption class="vintalight__caption">
-          <h3 class="vintalight__text">Title(Sample)</h3>
-        </figcaption>
-      </figure>
-
-      <figure class="vintalight__container">
+        <img class="pushpin" src="img/pushpin.png" alt="">
         <div class="vintalight__photo"><img class="vintalight__img" src="img/sample.jpg" alt="Title(Sample)"></div>
         <figcaption class="vintalight__caption">
           <h3 class="vintalight__text">Title(Sample)</h3>
@@ -81,6 +105,7 @@
       </figure>
       
       <figure class="vintalight__container">
+        <img class="pushpin" src="img/pushpin.png" alt="">
         <div class="vintalight__photo"><img class="vintalight__img" src="img/sample.jpg" alt="Title(Sample)"></div>
         <figcaption class="vintalight__caption">
           <h3 class="vintalight__text">Title(Sample)</h3>
@@ -88,6 +113,7 @@
       </figure>
       
       <figure class="vintalight__container">
+        <img class="pushpin" src="img/pushpin.png" alt="">
         <div class="vintalight__photo"><img class="vintalight__img" src="img/sample.jpg" alt="Title(Sample)"></div>
         <figcaption class="vintalight__caption">
           <h3 class="vintalight__text">Title(Sample)</h3>
@@ -95,6 +121,7 @@
       </figure>
       
       <figure class="vintalight__container">
+        <img class="pushpin" src="img/pushpin.png" alt="">
         <div class="vintalight__photo"><img class="vintalight__img" src="img/sample.jpg" alt="Title(Sample)"></div>
         <figcaption class="vintalight__caption">
           <h3 class="vintalight__text">Title(Sample)</h3>
@@ -102,6 +129,7 @@
       </figure>
       
       <figure class="vintalight__container">
+        <img class="pushpin" src="img/pushpin.png" alt="">
         <div class="vintalight__photo"><img class="vintalight__img" src="img/sample.jpg" alt="Title(Sample)"></div>
         <figcaption class="vintalight__caption">
           <h3 class="vintalight__text">Title(Sample)</h3>
@@ -109,6 +137,7 @@
       </figure>
       
       <figure class="vintalight__container">
+        <img class="pushpin" src="img/pushpin.png" alt="">
         <div class="vintalight__photo"><img class="vintalight__img" src="img/sample.jpg" alt="Title(Sample)"></div>
         <figcaption class="vintalight__caption">
           <h3 class="vintalight__text">Title(Sample)</h3>
@@ -118,7 +147,13 @@
     </section>
     <script src="js/script.js"></script>
 
+    <!-- アクセス時の動的要素 -->
+    <div class="start">
+      <p><img src="img/logo_white.png" alt=""></p>
+    </div>
+
   </div>
+
 </body>
 
 </html>
